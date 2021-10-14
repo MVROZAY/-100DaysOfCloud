@@ -1,52 +1,20 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# My First Day
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- created an aws account
 
-## Try yourself
+- Used Pricing Calculator to estimate annual cost an Enterprise running a simple WebApp
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Installed my first EC2 instance + RBS MySQL with bash script to install a basic Appache Web 
 
-### Step 1 — Summary of Step
+- Uploaded my First Nodejs code into Elastic Beanstalk
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Used S3 to Host a static website 
 
-### Step 1 — Summary of Step
+## Next Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+Working For My AWS Advanced Networking Cert
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
