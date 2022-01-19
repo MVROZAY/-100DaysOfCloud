@@ -1,52 +1,29 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# VPC Flow Logs with CloudWatch and Athena
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Used System Session Manager to connect to EC2 and review assigned logs on CloudWatch
 
-## Try yourself
+- Created an S3 Bucket
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Created a VPC Endpoint in a private subnet in order to reach S3 without traversing internet
 
-### Step 1 — Summary of Step
+- Created CloudWatch Log Group and VPC Flow Log to CloudWatch
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Created Flow Logs to both CloudWatch and S3 Buckets 
 
-### Step 1 — Summary of Step
+- Created CloudWatch metric based on failed attempts to access port 22
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Created CloudWatch alarm based off that metric and configured automatic email notifications using Amazon SNS
 
-### Step 3 — Summary of Step
+- Used CloudWatch Insights to run adhoc SQL queries against the log data stored in cloudwatch logs
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Created a table in Amazon Athena for S3 log data from the vpc flow logs 
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Ran an adhoc SQL query for S3 log data stored in S3
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+Explore Placement groups --->
