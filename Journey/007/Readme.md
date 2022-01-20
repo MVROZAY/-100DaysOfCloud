@@ -1,52 +1,21 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+<!-- This is a template you can use for quick progress days. It removes a lot of the steps we encourage you to share in the longer template 000-DAY-ARTICLE-LONG-TEMPLATE.MD-->
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# VPC Peering with EFS
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Create a VPC Peering Connection
 
-## Try yourself
+- Create the Required Certificates and Setup the Client VPN Endpoint on the VPC
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Connect Using an OpenVPN Client and Connect to an EFS Mount
 
-### Step 1 — Summary of Step
+- Simulated a remotely connected environment, connecting to a VPC using a Client VPN Endpoint. The VPC peered with another VPC in which we setup EFS.
 
-![Screenshot](https://via.placeholder.com/500x300)
+- We configured the appropriate routing to allow the VPN client to connect to EFS in the VPC Peer. 
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
+aws ec2 export-client-vpn-client-configuration --client-vpn-endpoint-id cvpn-endpoint-0620266115c99ba99 --output text>client-config.ovpn
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+Cloudformation templates
