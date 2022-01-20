@@ -35,7 +35,7 @@ Planning to become an efficient Cloud Network Engineer
 - [ ] ☁️ 6 > [Deep dive into Network Load Balancer](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [VPC Peering & EFS](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [Cloudformation 101](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [ ] ☁️ 9 > [Malware Scanning with Trend Micro](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
