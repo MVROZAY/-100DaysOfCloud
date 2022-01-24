@@ -45,7 +45,7 @@ Planning to become an efficient Cloud Network Engineer
 - [ ] ☁️ 13 > [S3 Buckets - Versioning and Deletion Protection](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [Configure an Alert Based on Logging Content](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [Configure At Rest Encryption for EFS](Journey/015/Readme.md)
-- [ ] ☁️ 16 > [](Journey/016/Readme.md)
+- [ ] ☁️ 16 > [Backup Plans](Journey/016/Readme.md)
 - [ ] ☁️ 17 > [](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
